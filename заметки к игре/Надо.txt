@@ -1,0 +1,6 @@
+        while seconds_left  0
+            seconds_left -= 1
+            sleep(5)
+            score = score + 1
+            monster = Enemy(car1.png, randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
+            monsters.add(monster)
